@@ -1,0 +1,19 @@
+{
+    "name": "airelogic-cookie-clicker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "KEC79 <mrsshoes2@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "test:ui": "testcafe chrome --config-file testcaferc.json",
+        "test:api": "jest -c jest.config.js"
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.18.2",
+        "babel-jest": "^28.1.1",
+        "jest": "^28.1.1",
+        "node-fetch": "2",
+        "testcafe": "^1.19.0",
+        "uuid": "^8.3.2"
+    }
+}

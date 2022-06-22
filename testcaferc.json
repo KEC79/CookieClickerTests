@@ -1,0 +1,9 @@
+{
+    "src": "tests/ui/scenarios",
+    "screenshots": {
+        "path": "tests/ui/screenshots",
+        "pathPattern": "${DATE}_${TIME}/${BROWSER}/${TEST}/screenshot-${TEST_INDEX}.png",
+        "takeOnFails": true,
+        "fullPage": true
+    }
+}

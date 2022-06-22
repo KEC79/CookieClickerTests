@@ -1,0 +1,17 @@
+
+# Dependency directories
+node_modules
+
+# vs code & plugings
+.vscode
+.history
+*.code-workspace
+
+# Temp generated files
+.tmp
+
+# jest test reports
+report.*
+
+# testcafe screenshots
+tests/ui/screenshots
