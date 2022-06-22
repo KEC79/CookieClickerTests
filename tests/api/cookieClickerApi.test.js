@@ -3,7 +3,7 @@ import { addCookie, buyFactories, sellCookies } from "./apiMethods";
 
 describe("cookie clicker api", () => {
     const baseUrl =
-        "https://kim-crowe-2022-06-20-api-test.cookieclickertechtest.airelogic.com/rpc";
+        "https://kim-crowe-2022-06-20-api-test1.cookieclickertechtest.airelogic.com/rpc";
 
     // sell cookies
 

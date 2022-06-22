@@ -5,7 +5,7 @@ import { getUsername, getPageUrl } from "../../helpers";
 import { t } from "testcafe";
 
 fixture("Cookie Clicker Game")
-    .page`https://kim-crowe-2022-06-20-ui-test.cookieclickertechtest.airelogic.com`;
+    .page`https://kim-crowe-2022-06-20-ui-test1.cookieclickertechtest.airelogic.com`;
 
 test("a player can create a new game with empty counters", async () => {
     const username = getUsername();
@@ -36,7 +36,7 @@ test("a player can navigate back to home page from game page", async () => {
     await t
         .expect(getPageUrl())
         .eql(
-            "https://kim-crowe-2022-06-20-ui-test.cookieclickertechtest.airelogic.com/"
+            "https://kim-crowe-2022-06-20-ui-test1.cookieclickertechtest.airelogic.com/"
         );
 
     t.expect(homePage.newGameHeader.exists);
@@ -94,7 +94,7 @@ test("a player can view their game and score on home page and reenter game via l
     await t
         .expect(getPageUrl())
         .eql(
-            `https://kim-crowe-2022-06-20-ui-test.cookieclickertechtest.airelogic.com/game/${username}`
+            `https://kim-crowe-2022-06-20-ui-test1.cookieclickertechtest.airelogic.com/game/${username}`
         )
         .expect(gamePage.welcomeMessage.innerText)
         .eql(`Hello ${username}`)
