@@ -27,7 +27,7 @@ The UI tests run the through what I considered to be the main user journeys in t
     A player can view their game and score on home page and reenter game via link
     An error is displayed when player uses an invalid url
 
-The Testcafe tests are currently configured to run in chrome but can be easily set to use different browsers by adding to the yarn script in `package.json`. The tests have also been configured to take full screen screenshots on failure. Any screenshots will be saved to `tests/ui/screenshots` directory.
+The Testcafe tests are currently configured to run in chrome but can be easily set to use different browsers by adding a browsers section to the config speciying the browsers to run the tests or add the browsers directly to the yarn script in `package.json`. The tests have also been configured to take full screen screenshots on failure. Any screenshots will be saved to `tests/ui/screenshots` directory.
 
 NOTE: Currently 2 UI tests are failing. This is due to assumed incorrect behaviour from the application i.e. the values from the sell cookie and buy factory inputs are not cleared after submitting (see bug sheet for further information). As these tests were not written alongside development of the app and the app is known to have bugs, assumptions on the correct behaviour have been made and the tests are written to assert assumed correct behaviour. For further inforation on assumed correct behaviour of the application see the 'Player actions and scenarios' on Cookie Cookie spreadsheet sent with this submission.
 
