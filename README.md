@@ -54,7 +54,7 @@ The API tests are used to test api validation:
 
 These tests were approached via the API as any validation messages from the API are not surfaced to the UI. In addition, given this is testing server-side validation, it seems reasonable to interact directly with the API for this.
 
-NOTE: Currently 3 API tests are failing. This is due to assumed incorrect behaviour from the application i.e. the ability to add negative numbers when selling cookies; the ability to buy factories with no money; the ability to sell fractions of cookies (see bug sheet for further information). As these tests were not written alongside the development of the app and the app is known to have bugs, assumptions on the correct behaviour have been made and the tests are written to assert assumed correct behaviour. For further information on the assumed correct behaviour of the application see the 'Features and player actions' sheet in Cookie Clicker spreadsheet sent with this submission.
+NOTE: Currently 4 API tests are failing. This is due to assumed incorrect behaviour from the application i.e. the ability to add negative numbers when selling cookies; the ability to buy factories with no money; the ability to sell fractions of cookies (see bug sheet for further information). As these tests were not written alongside the development of the app and the app is known to have bugs, assumptions on the correct behaviour have been made and the tests are written to assert assumed correct behaviour. For further information on the assumed correct behaviour of the application see the 'Features and player actions' sheet in Cookie Clicker spreadsheet sent with this submission.
 
 To run the Jest API tests, run:
 
